@@ -4,10 +4,10 @@ class Dog
   def initialize(name)
     @name = name
     @@dogs << self
-  end 
+  end
 
-  def self.all 
-    @@dogs 
+  def self.all
+    @@dogs
   end 
 
 
